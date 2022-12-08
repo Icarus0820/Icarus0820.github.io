@@ -785,24 +785,24 @@ main {
   align-items: flex-start;
   gap: 15px;
   margin: 0 -15px;
-  padding: 25px;
-  padding-bottom: 25px;
+  padding: 50px;
+  padding-bottom: 50px;
   overflow-x: auto;
   scroll-behavior: smooth;
   overscroll-behavior-inline: contain;
   scroll-snap-type: inline mandatory;
-  scroll-padding-inline: 25px;
+  scroll-padding-inline: 50px;
 }
 
 .clients-item {
-  min-width: 50%;
+  min-width: 100%;
   scroll-snap-align: start;
 }
 
 .clients-item img {
-  width: 100%;
+  width: 200%;
   filter: grayscale(1);
-  transition: var(--transition-1);
+  transition: var(--transition-10);
 }
 
 .clients-item img:hover {
